@@ -36,9 +36,12 @@
     "webpack-hot-middleware": "^2.12.2"
   },
   "dependencies": {
+    "axios": "^0.17.1",
     "clipboard": "^1.6.1",
     "clipboard-js": "^0.3.3",
     "dotenv": "^4.0.0",
+    "el-admin": "^0.3.4",
+    "element-ui": "^2.0.5",
     "knex": "^0.12.9",
     "koa": "^2.1.0",
     "koa-bodyparser": "^4.1.0",
@@ -47,7 +50,8 @@
     "promise-polyfill": "^6.0.2",
     "randomstring": "^1.1.5",
     "vue": "^2.2.4",
-    "vue-router": "^2.8.1"
+    "vue-router": "^2.8.1",
+    "vutils": "^0.14.6"
   },
   "frontDependencies": {
     "promise-polyfill": "^6.0.2",

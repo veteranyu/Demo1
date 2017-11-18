@@ -65,9 +65,9 @@
         .then(res => res.json())
         .then(data => {
           if (data.error) {
-          	alert(data.error)
+          	alert('error')
           } else {
-          	alert(data.data.name)
+          	alert('OK')
           }
         })
       }

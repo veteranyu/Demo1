@@ -43,7 +43,7 @@ app.use(require('webpack-hot-middleware')(compiler))
 const mfs = devMiddleWare.fileSystem
 const file = path.join(webpackConfig.output.path, 'index.html')
 
-console.log(`> VuePack is running at ${chalk.yellow(`http://localhost:${port}`)}\n`)
+console.log(`> VuePack ${webpackConfig.output.path} is running at ${chalk.yellow(`http://localhost:${port}`)}\n`)
 
 devMiddleWare.waitUntilValid()
 

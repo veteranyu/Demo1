@@ -1,8 +1,8 @@
 <template>
   <footer>
     <div class="container">
-      <a href="http://learn-programming.club">
-        <p class="text-muted">Click Here to Learn How to Program!</p>
+      <a href="#">
+        <p class="text-muted">Demo1</p>
       </a>
     </div>
   </footer>
